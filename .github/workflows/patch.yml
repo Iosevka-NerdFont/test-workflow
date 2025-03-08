@@ -10,3 +10,5 @@ jobs:
     uses: Iosevka-NerdFont/workflows/.github/workflows/patch-font.yml@dev
     with:
       asset_name: "IosevkaAile"
+    secrets:
+      curl_token: "${{ secrets.CURL_TOKEN }}"
